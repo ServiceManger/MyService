@@ -11,9 +11,17 @@ namespace Infarstuructre.IRepository.ServicesRepository
     public class ServicesEmployees : IServicesAppRepository<Employees>
     {
 
+
+        private readonly MyServiceDbContext _context;
+
+        public ServicesEmployees(MyServiceDbContext context)
         {
             _context = context;
         }
+      
+
+       
+        
 
         public bool Delete(int Id)
         {

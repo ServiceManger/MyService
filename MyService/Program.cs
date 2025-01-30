@@ -74,7 +74,7 @@ namespace MyService
                 options.Password.RequiredLength = 5;
                 options.Password.RequireNonAlphanumeric = false;
             }).AddEntityFrameworkStores<MyServiceDbContext>();
-
+            
             services.ConfigureApplicationCookie(options =>
             {
                 options.LoginPath = "/Admin";

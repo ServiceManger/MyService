@@ -6,7 +6,9 @@ namespace Domin.Entity
 {
     public  class Customer
     {
-
+        /// <summary>
+        /// /////////
+        /// </summary>
 
         [Key]
         public int CustomerId { get; set; }

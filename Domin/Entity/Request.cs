@@ -8,7 +8,9 @@ namespace Domin.Entity
 {
     public  class Request
     {
-       
+       /// <summary>
+       /// /////////////////////////////////////
+       /// </summary>
         [Key]
         public int RequestId { get; set; }
         public int CustomerId { get; set; }
